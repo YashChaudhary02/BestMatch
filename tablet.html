@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestMatch Tablets</title>
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>BestMatch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Mobiles</a></li>
+                <li><a href="tablet.html">Tablets</a></li>
+                <li><a href="laptop.html">Laptops</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="comparison-container">
+            <h2>BestMatch Tablets</h2>
+            <div class="product-comparison">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="images/img3.png" alt="Tablet 1">
+                    <div class="specs">
+                        <select class="tablet-selector" id="tablet1" onchange="updateComparison()">
+                            <option value="">Select Tablet 1</option>
+                            <option value="AppleiPadPro13Inch">Apple iPad Pro (13-inch)</option>
+                            <option value="AppleiPadAirM1">Apple iPad Air M1 (10.9-inch)</option>
+                            <option value="SamsungGalaxyTabS10Ultra">Samsung Galaxy Tab S9</option>
+                            <option value="SamsungGalaxyTabS9FEPlus">Samsung Galaxy Tab S9 FE+</option>
+                            <option value="GooglePixelTablet">Google Pixel Tablet</option>
+                            <option value="OnePlusPad">OnePlus Pad</option>
+                            <option value="AmazonFire11Max">Amazon Fire 11 Max</option>
+                            <option value="MicrosoftSurfaceGo2">Microsoft Surface Go 2</option>
+                            <option value="XiaomiPad5">Xiaomi Pad 5</option>
+                            <option value="LenovoTabM10PlusGen3">Lenovo Tab M10 Plus Gen 3</option>
+                            <option value="AppleiPadMini6thGen">Apple iPad Mini (6th Gen)</option>
+                            <option value="LenovoLegionTab2025">Lenovo Legion Tab (2025)</option>
+                            <option value="AppleiPad10thGen">Apple iPad 10th Gen (2022)</option>
+                            <option value="AmazonFireHD102023">Amazon Fire HD 10 (2023)</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Camera</div>
+                        <div class="spec-item blue">RAM/ROM</div>
+                        <div class="spec-item blue">Battery</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="images/img3.png" alt="Tablet 2">
+                    <div class="specs">
+                        <select class="tablet-selector" id="tablet2" onchange="updateComparison()">
+                            <option value="">Select Tablet 1</option>
+                            <option value="AppleiPadPro13Inch">Apple iPad Pro (13-inch)</option>
+                            <option value="AppleiPadAirM1">Apple iPad Air M1 (10.9-inch)</option>
+                            <option value="SamsungGalaxyTabS10Ultra">Samsung Galaxy Tab S9</option>
+                            <option value="SamsungGalaxyTabS9FEPlus">Samsung Galaxy Tab S9 FE+</option>
+                            <option value="GooglePixelTablet">Google Pixel Tablet</option>
+                            <option value="OnePlusPad">OnePlus Pad</option>
+                            <option value="AmazonFire11Max">Amazon Fire 11 Max</option>
+                            <option value="MicrosoftSurfaceGo2">Microsoft Surface Go 2</option>
+                            <option value="XiaomiPad5">Xiaomi Pad 5</option>
+                            <option value="LenovoTabM10PlusGen3">Lenovo Tab M10 Plus Gen 3</option>
+                            <option value="AppleiPadMini6thGen">Apple iPad Mini (6th Gen)</option>
+                            <option value="LenovoLegionTab2025">Lenovo Legion Tab (2025)</option>
+                            <option value="AppleiPad10thGen">Apple iPad 10th Gen (2022)</option>
+                            <option value="AmazonFireHD102023">Amazon Fire HD 10 (2023)</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Camera</div>
+                        <div class="spec-item blue">RAM/ROM</div>
+                        <div class="spec-item blue">Battery</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="images/img3.png" alt="Tablet 3">
+                    <div class="specs">
+                        <select class="tablet-selector" id="tablet3" onchange="updateComparison()">
+                            <option value="">Select Tablet 1</option>
+                            <option value="AppleiPadPro13Inch">Apple iPad Pro (13-inch)</option>
+                            <option value="AppleiPadAirM1">Apple iPad Air M1 (10.9-inch)</option>
+                            <option value="SamsungGalaxyTabS10Ultra">Samsung Galaxy Tab S9</option>
+                            <option value="SamsungGalaxyTabS9FEPlus">Samsung Galaxy Tab S9 FE+</option>
+                            <option value="GooglePixelTablet">Google Pixel Tablet</option>
+                            <option value="OnePlusPad">OnePlus Pad</option>
+                            <option value="AmazonFire11Max">Amazon Fire 11 Max</option>
+                            <option value="MicrosoftSurfaceGo2">Microsoft Surface Go 2</option>
+                            <option value="XiaomiPad5">Xiaomi Pad 5</option>
+                            <option value="LenovoTabM10PlusGen3">Lenovo Tab M10 Plus Gen 3</option>
+                            <option value="AppleiPadMini6thGen">Apple iPad Mini (6th Gen)</option>
+                            <option value="LenovoLegionTab2025">Lenovo Legion Tab (2025)</option>
+                            <option value="AppleiPad10thGen">Apple iPad 10th Gen (2022)</option>
+                            <option value="AmazonFireHD102023">Amazon Fire HD 10 (2023)</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Camera</div>
+                        <div class="spec-item blue">RAM/ROM</div>
+                        <div class="spec-item blue">Battery</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BestMatch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="tablet.js"></script>
+</body>
+</html>

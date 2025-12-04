@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestMatch</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>BestMatch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Mobiles</a></li>
+                <li><a href="tablet.html">Tablets</a></li>
+                <li><a href="laptop.html">Laptops</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="comparison-container">
+            <h2>BestMatch Mobiles</h2>
+            <div class="product-comparison">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="/images/img2.png" alt="Phone 1">
+                    <div class="specs">
+                        <select class="mobile-selector" id="mobile1" onchange="updateComparison()">
+                            <option value="">Select Mobile 1</option>
+                            <option value="iphone16">iPhone 16</option>
+                            <option value="samsungs24">Samsung S24 Ultra</option>
+                            <option value="oneplusnord4">Oneplus Nord 4</option>
+                            <option value="iphone15promax">iPhone 15 Pro Max</option>
+                            <option value="iphone15plus">iPhone 15 Plus</option>
+                            <option value="iphone15">iPhone 15</option>
+                            <option value="vivov40e">Vivo V40e</option>
+                            <option value="googlepixel8">Google Pixel 8</option>
+                            <option value="samsungzflip5">Samsung Z Flip 5</option>
+                            <option value="iphone16promax">iPhone 16 Pro Max</option>
+                            <option value="iphone16pro">iPhone 16 Pro</option>
+                            <option value="oneplus12">Oneplus 12</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Camera</div>
+                        <div class="spec-item blue">RAM/ROM</div>
+                        <div class="spec-item blue">Battery</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="/images/img2.png" alt="Phone 2">
+                    <div class="specs">
+                        <select class="mobile-selector" id="mobile2" onchange="updateComparison()">
+                            <option value="">Select Mobile 2</option>
+                            <option value="iphone16">iPhone 16</option>
+                            <option value="samsungs24">Samsung S24 Ultra</option>
+                            <option value="oneplusnord4">Oneplus Nord 4</option>
+                            <option value="iphone15promax">iPhone 15 Pro Max</option>
+                            <option value="iphone15plus">iPhone 15 Plus</option>
+                            <option value="iphone15">iPhone 15</option>
+                            <option value="vivov40e">Vivo V40e</option>
+                            <option value="googlepixel8">Google Pixel 8</option>
+                            <option value="samsungzflip5">Samsung Z Flip 5</option>
+                            <option value="iphone16promax">iPhone 16 Pro Max</option>
+                            <option value="iphone16pro">iPhone 16 Pro</option>
+                            <option value="oneplus12">Oneplus 12</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Camera</div>
+                        <div class="spec-item blue">RAM/ROM</div>
+                        <div class="spec-item blue">Battery</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="/images/img2.png" alt="Phone 3">
+                    <div class="specs">
+                        <select class="mobile-selector" id="mobile3" onchange="updateComparison()">
+                            <option value="">Select Mobile 3</option>
+                            <option value="iphone16">iPhone 16</option>
+                            <option value="samsungs24">Samsung S24 Ultra</option>
+                            <option value="oneplusnord4">Oneplus Nord 4</option>
+                            <option value="iphone15promax">iPhone 15 Pro Max</option>
+                            <option value="iphone15plus">iPhone 15 Plus</option>
+                            <option value="iphone15">iPhone 15</option>
+                            <option value="vivov40e">Vivo V40e</option>
+                            <option value="googlepixel8">Google Pixel 8</option>
+                            <option value="samsungzflip5">Samsung Z Flip 5</option>
+                            <option value="iphone16promax">iPhone 16 Pro Max</option>
+                            <option value="iphone16pro">iPhone 16 Pro</option>
+                            <option value="oneplus12">Oneplus 12</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Camera</div>
+                        <div class="spec-item blue">RAM/ROM</div>
+                        <div class="spec-item blue">Battery</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BestMatch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

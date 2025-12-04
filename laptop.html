@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestMatch</title>
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>BestMatch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Mobiles</a></li>
+                <li><a href="tablet.html">Tablets</a></li>
+                <li><a href="laptop.html">Laptops</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="comparison-container">
+            <h2>BestMatch Laptops</h2>
+            <div class="product-comparison">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="/images/img1.png" alt="Laptop 1">
+                    <div class="specs">
+                        <select class="laptop-selector" id="laptop1" onchange="updateComparison()">
+                            <option value="">Select Laptop 1</option>
+                            <option value="macbookair">Macbook Air M2</option>
+                            <option value="samsungnotebook">Galaxy Book 4 Pro</option>
+                            <option value="asusvivobook">Asus Vivobook 16</option>
+                            <option value="microsoftsurface">Microsoft Surface Elite</option>
+                            <option value="lenovoideapad5">Lenovo IdeaPad Duet 5</option>
+                            <option value="dellxps13">Dell XPS 13</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Memory</div>
+                        <div class="spec-item blue">Battery Life</div>
+                        <div class="spec-item blue">Graphic Card</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="/images/img1.png" alt="Laptop 2">
+                    <div class="specs">
+                        <select class="laptop-selector" id="laptop2" onchange="updateComparison()">
+                            <option value="">Select Laptop 2</option>
+                            <option value="macbookair">Macbook Air M2</option>
+                            <option value="samsungnotebook">Galaxy Book 4 Pro</option>
+                            <option value="asusvivobook">Asus Vivobook 16</option>
+                            <option value="microsoftsurface">Microsoft Surface Elite</option>
+                            <option value="lenovoideapad5">Lenovo IdeaPad Duet 5</option>
+                            <option value="dellxps13">Dell XPS 13</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Memory</div>
+                        <div class="spec-item blue">Battery Life</div>
+                        <div class="spec-item blue">Graphic Card</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="/images/img1.png" alt="Laptop 3">
+                    <div class="specs">
+                        <select class="laptop-selector" id="laptop3" onchange="updateComparison()">
+                            <option value="">Select Laptop 3</option>
+                            <option value="macbookair">Macbook Air M2</option>
+                            <option value="samsungnotebook">Galaxy Book 4 Pro</option>
+                            <option value="asusvivobook">Asus Vivobook 16</option>
+                            <option value="microsoftsurface">Microsoft Surface Elite</option>
+                            <option value="lenovoideapad5">Lenovo IdeaPad Duet 5</option>
+                            <option value="dellxps13">Dell XPS 13</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Memory</div>
+                        <div class="spec-item blue">Battery Life</div>
+                        <div class="spec-item blue">Graphic Card</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BestMatch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="laptop.js"></script>
+</body>
+</html>
